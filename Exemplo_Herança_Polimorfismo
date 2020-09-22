@@ -1,0 +1,11 @@
+
+public abstract class Transporte {
+
+	protected int quantidadeLugares; 
+	protected double velocidadeMaxima;
+	protected String marca;
+	
+	public abstract void locomover();
+	public abstract void embarque();
+	
+}
